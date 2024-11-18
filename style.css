@@ -1,0 +1,126 @@
+/* MAIN TEXT / INFORMATION */
+
+html {
+  background-color: rgb(254, 245, 227);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Playwrite GB S", cursive;
+  text-align: center;
+}
+
+.resumetext {
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  width: 900px;
+  background-color: rgb(238, 231, 224);
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0px auto;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+}
+
+.list {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.languages {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+
+  /* CONTACT AREA  */
+}
+.contact {
+  text-align: center;
+}
+
+.email {
+  text-align: center;
+}
+
+.mailing {
+  text-align: center;
+}
+/* END OF CONTACT MODIFYING */
+
+/* END OF MAIN TEXT INFORMATION */
+
+/* BUTTON AREA */
+button {
+  text-align: center;
+}
+
+.vertical:hover {
+  background-color: green;
+  font-size: 13px;
+}
+
+.horizontal:hover {
+  background-color: red;
+  font-size: 13px;
+}
+
+.vertical:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.horizontal:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.vertical {
+  border: none;
+  color: rgb(177, 177, 177);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.horizontal {
+  border: none;
+  color: rgb(177, 177, 177);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttons {
+  text-align: center;
+}
+/* END OF BUTTON AREA */
+
+td {
+  border: 2px solid black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
